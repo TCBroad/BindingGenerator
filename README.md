@@ -11,9 +11,9 @@ This application enumerates the dlls in a folder and generates the xml to config
 From the command line:
 BindingGenerator.Console <input path> <output filename> [string to exclude]
 
-- <input path> is fairly obvious - where should it look for dlls
-- <output path> is where you want the xml written. This will overwrite any file that's there without asking so be careful.
-- [string to exclude] is an optional param that will exclude dlls that match a string. This isn't clever and doesn't take wildcards, it just removes the value from the output if it contains the string.
+- input path is fairly obvious - where should it look for dlls
+- output path is where you want the xml written. This will overwrite any file that's there without asking so be careful.
+- string to exclude is an optional param that will exclude dlls that match a string. This isn't clever and doesn't take wildcards, it just removes the value from the output if it contains the string.
 
 ### Example
 In a folder containing the following
